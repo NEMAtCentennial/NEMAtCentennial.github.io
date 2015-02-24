@@ -8,9 +8,28 @@ margin-bottom: 0px;
 #bannerSection{
 background-color: #242D36;
 height: 250px;
+margin-bottom: 0px;
 }
 
 #registerForNem{
 b  ackground-color: orange;
 c olor: white;
+}
+
+#footerSection {
+margin-bottom: 0px;
+background-color: #242D36;
+text-align: center;
+}
+
+.titles {
+color: #F45145;
+ font-size: 280%;
+ font-weight: 600;
+font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+#infographicSection {
+margin-top: 0px;
 }
