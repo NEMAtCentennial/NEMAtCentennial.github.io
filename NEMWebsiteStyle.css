@@ -33,3 +33,31 @@ font-family: "Times New Roman", Georgia, Serif;
 #infographicSection {
 margin-top: 0px;
 }
+
+.speakerCompany {
+font-size: 130%;
+margin-top: 5px;
+}
+
+.speakerTitle {
+font-size: 130%;
+margin-top: 5px;
+}
+
+.speakerTopic {
+font-size: 150%;
+ font-weight: 600;
+color: #F45145;
+    display: inline;
+}
+
+.speakerName {
+ font-weight: 600;
+}
+
+.speakerTime {
+padding-top: 20px;
+font-size: 120%;
+ font-weight: 800;
+ color: blue;
+}
