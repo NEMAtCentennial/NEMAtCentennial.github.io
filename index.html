@@ -8,7 +8,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="NEMWebsiteStyle.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
 
+    $("#pageProgram1").click(function(){
+    $("#program1").stop().show();
+        $("#program2").hide();
+
+    });
+    $("#pageProgram2").click(function(){
+	        $("#program1").stop().hide();
+	        $("#program2").show();
+    });
+});
+</script>
 </head>
 <body>
 
@@ -113,15 +127,37 @@
 <a  name="nemLink" ></a>
 <div id="NemAtCentennialSection" class="jumbotron">
 <div class="row">
+<div class="col-sm-2"></div>
+  <div class="col-sm-8"><h3  class="titles" >National Engineering Month at Centennial College</h3></div>
+   <div class="col-sm-2"></div>
+   </div>
+   <div class="row">
   <div class="col-sm-2"></div>
   <div class="col-sm-8">
-  	<h3  class="titles" >National Engineering Month at Centennial College</h3>
-  	<p>This is not Centennial College&#8217;s first time celebration National Engineering Month.
+  	<p>This is Centennial College&#8217;s second time celebration National Engineering Month.
   	A group of passionate and dedicated students entered into OACETT&#8217;s National Engineering Month competition and celebration last year.
   	The focus of the event was DNA as a Future Storage Device, and was presented by who presented on the topic of DNA as a Storage Device.
   	The turnout was excellent and everyone who attended loved it and learned a lot.
 </p>
 <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+           Program</a>
+        </h3>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">
+        <p>Download program in .pdf format <a href="images/111_program.pdf" >here</a>.</p>
+        <ul class="pager">
+  <li id="pageProgram1" ><a href="#program1">Cover</a></li>
+  <li id="pageProgram2" ><a href="#program2">Content</a></li>
+</ul>
+<img id="program1"  src="images/111_program/1.jpg" />
+<img id="program2" hidden src="images/111_program/2.jpg" />
+      </div>
+  </div>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
