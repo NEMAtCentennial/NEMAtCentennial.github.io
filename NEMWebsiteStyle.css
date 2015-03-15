@@ -2,7 +2,10 @@
 
 body {
 font-family: Oswald,sans-serif;
+}
 
+* {
+b order: solid 1px green;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -75,3 +78,41 @@ font-size: 120%;
 width: 300px;
 heigth; 200px;
 }
+
+#updateImage1 {
+position:relative;
+    width: 300px;
+    height: 494px;
+    border: solid 1px #D3D3D3;
+    b ackground: red;
+    -w ebkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    t ransition: width 0.5s, height 0.5s;
+    background-image: url("images/file-page1.png");
+}
+
+#updateImage1:hover {
+ba ckground-image: url("images/file-page2.png");
+    t ransition: width 2s, height 2s;
+     border: solid 1px #D3D3D3;
+    w idth: 800px;
+    h eight: 1318px;
+}
+
+
+#updateImage2 {
+position:relative;
+    width: 300px;
+    height: 464px;
+    b ackground: red;
+    -w ebkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    t ransition: width 0.5s, height 0.5s;
+    background-image: url("images/111_poster1.png");
+}
+
+#updateImage2:hover {
+ba ckground-image: url("images/111_poster2.png");
+    t ransition: width 2s, height 2s;
+    w idth: 800px;
+    h eight: 1237px;
+}
+			
